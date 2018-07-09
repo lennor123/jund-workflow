@@ -5,43 +5,43 @@ public final class Constants {
 
 	public static final String PREFIX = "_wfl_"; 
     public final static String PARAM_PROCESS_STATUS = PREFIX + "processStatus";
-    public static final String PARAM_TASK_RESULT_FLAG = PREFIX + "resultFlag";        //审批结果参数�?
-    public static final String PARAM_TASK_COMMENT = "taskComment";            //审批结果参数�?
-    public static final String PARAM_PROCESS_APPLY_USER = PREFIX + "applyUser";        //流程发起�?
-    public static final String PARAM_PROCESS_APPLY_USER_REALNAME = PREFIX + "applyUser_realName";        //流程发起�?
-    public static final String PARAM_TASK_APPROVER = PREFIX + "taskApprover";            //审批�?
-    public static final String PARAM_NEXT_TASK_CANDIDATES = PREFIX + "next_task_candidates";    //下一节点审批候�?�人
-    public static final String PARAM_TASK_CANDIDATES = PREFIX + "task_candidates";            //当前节点审批候�?�人
-    public static final String PARAM_PROCESS_RUN_ROUTE = PREFIX + "process_run_route";    //下一节点审批候�?�人
+    public static final String PARAM_TASK_RESULT_FLAG = PREFIX + "resultFlag";        //审批结果参数�?
+    public static final String PARAM_TASK_COMMENT = "taskComment";            //审批结果参数�?
+    public static final String PARAM_PROCESS_APPLY_USER = PREFIX + "applyUser";        //流程发起�?
+    public static final String PARAM_PROCESS_APPLY_USER_REALNAME = PREFIX + "applyUser_realName";        //流程发起�?
+    public static final String PARAM_TASK_APPROVER = PREFIX + "taskApprover";            //审批�?
+    public static final String PARAM_NEXT_TASK_CANDIDATES = PREFIX + "next_task_candidates";    //下一节点审批候�?�人
+    public static final String PARAM_TASK_CANDIDATES = PREFIX + "task_candidates";            //当前节点审批候�?�人
+    public static final String PARAM_PROCESS_RUN_ROUTE = PREFIX + "process_run_route";    //下一节点审批候�?�人
 
     public static final String PARAM_SIGN_ASSIGNEES = PREFIX + "sign_assignees";        //会签人员变量
     public static final String PARAM_SIGN_COMPLETED_CONDITION = PREFIX + "sign_completed_condition";        //会签完成条件
     public static final String PARAM_SIGN_VARIABLE = PREFIX + "sign_variable";        //会签变量
     public static final String PARAM_SIGN_NR_OF_INSTANCES = "nrOfInstances";        //会签实例总数
-    public static final String PARAM_SIGN_NR_OF_COMPLETED_INSTANCES = "nrOfCompletedInstances";        //会签已经完成的实例�?�数
-    public static final String PARAM_SIGN_NR_OF_ACTIVE_INSTANCES = "nrOfActiveInstances";        //会签还没完成的实例�?�数
-    public static final String PARAM_SIGN_NR_OF_PASS_INSTANCES = PREFIX + "nrOfPassInstances";        //会签任务通过�?
+    public static final String PARAM_SIGN_NR_OF_COMPLETED_INSTANCES = "nrOfCompletedInstances";        //会签已经完成的实例�?�数
+    public static final String PARAM_SIGN_NR_OF_ACTIVE_INSTANCES = "nrOfActiveInstances";        //会签还没完成的实例�?�数
+    public static final String PARAM_SIGN_NR_OF_PASS_INSTANCES = PREFIX + "nrOfPassInstances";        //会签任务通过�?
 
-    public static final String SIGN_TASK_STATUS_SUCCESS = "1";        //会签节点状�?�：成功
-    public static final String SIGN_TASK_STATUS_FAILEUR = "2";        //会签节点状�?�：失败
-    public static final String SIGN_TASK_STATUS_RUNNING = "3";        //会签节点状�?�：尚在运行�?
+    public static final String SIGN_TASK_STATUS_SUCCESS = "1";        //会签节点状�?�：成功
+    public static final String SIGN_TASK_STATUS_FAILEUR = "2";        //会签节点状�?�：失败
+    public static final String SIGN_TASK_STATUS_RUNNING = "3";        //会签节点状�?�：尚在运行�?
 
     public static final String SIGN_TYPE_PARALLEL = "Parallel";        //会签类型，是
 
-    public static final String NODE_ROLLBACK_RULE_ORIGINAL = "0";   //会�??给原办理�?
-    public static final String NODE_ROLLBACK_RULE_ALL = "1";        //回�??原映射所有审批人
+    public static final String NODE_ROLLBACK_RULE_ORIGINAL = "0";   //会�??给原办理�?
+    public static final String NODE_ROLLBACK_RULE_ALL = "1";        //回�??原映射所有审批人
 
     public static final String TASK_RESULT_YES = "Y";    //审批通过
-    public static final String TASK_RESULT_NO = "N";        //审批未�?�过
+    public static final String TASK_RESULT_NO = "N";        //审批未�?�过
 
     public static final String TASK_DELETE_REASON_DELETE = "deleted";        //关闭
     public static final String TASK_DELETE_REASON_COMPLETED = "completed";  //完成
 
-    public static final String TASK_STATUS_RUNNING = "1";    //运行�?
-    public static final String TASK_STATUS_FINISH = "2";        //已结�?
+    public static final String TASK_STATUS_RUNNING = "1";    //运行�?
+    public static final String TASK_STATUS_FINISH = "2";        //已结�?
 
     public static final String NODE_CONSIGNABLE = "1";            //允许委派
-    public static final String NODE_UNCONSIGN = "0";                //不允许委�?
+    public static final String NODE_UNCONSIGN = "0";                //不允许委�?
 
     public static final String MODEL_DEPLOY = "1";        //发布
 
@@ -50,7 +50,7 @@ public final class Constants {
      */
     public static final String SUSPEND = "2";
     /**
-     * �?�?
+     * �?�?
      */
     public static final String ACTIVE = "1";
 
@@ -81,30 +81,30 @@ public final class Constants {
      */
     public final static class VoteRule {
         /**
-         * �?票否决制
+         * �?票否决制
          */
         public static final String ONE_DENY = "0";
         /**
-         * �?票�?�过�?
+         * �?票�?�过�?
          */
         public static final String ONE_AGREE = "1";
         /**
-         * 半数通过�?
+         * 半数通过�?
          */
         public static final String PER_50_AGREE = "2";
         /**
-         * 60%通过�?
+         * 60%通过�?
          */
         public static final String PER_60_AGREE = "3";
     }
 
     public final static class Variable {
         /**
-         * 任务级业务主�?
+         * 任务级业务主�?
          */
         public static final String TASK_BUSINESS_KEY = "task_business_key";
         /**
-         * 流程级业务主�?
+         * 流程级业务主�?
          */
         public static final String PROCESS_BUSINESS_KEY = "process_business_key";
         /**
@@ -122,18 +122,18 @@ public final class Constants {
     }
 
     /**
-     * 流程实例状�??
+     * 流程实例状�??
      */
     public final static class ProcessInstStatus {
-        public static final String RUNNING = "1";    //运行�?
-        public static final String FINISH = "2";        //已结�?
-        public static final String CANCELLED = "3";        //已终�?
+        public static final String RUNNING = "1";    //运行�?
+        public static final String FINISH = "2";        //已结�?
+        public static final String CANCELLED = "3";        //已终�?
         public static final String ERROR = "4";        //错误
         public static final String SUSPEND = "5";        //挂起
     }
 
     /**
-     * 流程定义状�??
+     * 流程定义状�??
      */
     public final static class ProcessDefStatus {
         /**
@@ -202,13 +202,13 @@ public final class Constants {
      * 映射审批类型
      */
     public final static class ApproveType {
-        public static final String APPLY_USER = "1";            //提交�?
+        public static final String APPLY_USER = "1";            //提交�?
         public static final String APPLY_ORG_ROLE = "2";        //提交人所在机构某角色
         public static final String ROLE = "3";                  //角色
         public static final String ORG_ROLE = "4";              //某机构某角色
         public static final String USER = "5";                  //指定用户
-        public static final String APPLY_PORG_ROLE = "6";        //提交人上级机构的某角�?
-        public static final String APPLY_ORG_PORG_ROLE = "7";    //提交人所在机构或者上级机构的某角�?
+        public static final String APPLY_PORG_ROLE = "6";        //提交人上级机构的某角�?
+        public static final String APPLY_ORG_PORG_ROLE = "7";    //提交人所在机构或者上级机构的某角�?
     }
 
     public final static class Tags {
@@ -247,7 +247,7 @@ public final class Constants {
 
         public static final String CHILD_SHAPES = "childShapes";
         /**
-         * 回�??规则
+         * 回�??规则
          */
         public static final String BACKRULE = "rollbackrule";
         /**
@@ -308,7 +308,7 @@ public final class Constants {
     }
 
     /**
-     * 标签内容�?
+     * 标签内容�?
      */
     public static final class TagVal {
         /**

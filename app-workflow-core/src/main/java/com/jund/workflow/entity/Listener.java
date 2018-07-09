@@ -6,17 +6,17 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * 监听器实�?
+ * 监听器实�?
  */
 @Entity
 @Table(name = "ACT_EX_LISTENER")
 public class Listener implements Serializable {
 
     private String uuid;        //主键
-    private String name;        //监听器中文名�?
+    private String name;        //监听器中文名�?
     private String remark;        //描述
-    private String type;        //类型  �?始�?�结�?
-    private String className;    //实现类完整名�?
+    private String type;        //类型  �?始�?�结�?
+    private String className;    //实现类完整名�?
 
     @Id
     @GenericGenerator(name = "uuidGenerator", strategy = "uuid")
